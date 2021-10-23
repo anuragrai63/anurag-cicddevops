@@ -13,5 +13,6 @@ resource "aws_instance" "app-server1" {
     Name = "anurag-server-devops-v1"
     dept = "Vodafone"
     env = "Dev"
+    os  = "Amazon Linux"
   }
 }
